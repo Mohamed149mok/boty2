@@ -53,7 +53,7 @@ def check_for_congratulations(response_text):
         send_telegram_message(response_text_with_note)
 
 def send_telegram_message(message):
-    token = '6380569427:AAGc9WwuT8dbgyPsYwhESPdzuZbvJNMXZTw'
+    token = '6765046025:AAEwX_oVI8nhQCjZ0H60p7AXz_vpn0KLNUA'
     chat_id = '831625834'
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     payload = {
